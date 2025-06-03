@@ -18,14 +18,34 @@ world = "world"
 #helloworld = hello + " " + world #(concatenation)
 print(hello,world)
 
-# More than one variable simultanuously
-X ,Y = 3, 4
-print(X,Y)
+
+# Multiple variable simultanuously
+X ,Y ,Z = 3, 4, 5
+# print the values of X, Y, Z
+print(X,Y,Z)
+
+
+# one value to multiple variables
+x = y = z = "Orange"
+print(x)
+print(y)
+print(z)
+
+
+# Unpack a Collection
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+print(x)
+print(y)
+print(z)
+
+
 
 # change this code
 mystring = "hello"
 myfloat = 10.0
 myint = 20
+
 
 # testing code
 if mystring == "hello":
