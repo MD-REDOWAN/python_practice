@@ -13,7 +13,7 @@ b = ["apple", "bannana", "cherry", "orange", "kiwi", "mango"]
 # The search will start at index 2 (included) and end at index 5 (not included).
 
 print(b[2:5])  # Output: ['cherry', 'orange', 'kiwi'] (items from index 2 to 4)
-print(b[:4])  # Output: ['apple', 'bannana', 'cherry', 'orange'. 'mango'] (items from start to index 3)
+print(b[:4])  # Output: ['apple', 'bannana', 'cherry', 'orange', 'mango] (items from start to index 3)
 
 
 # Range of Negative indexes
