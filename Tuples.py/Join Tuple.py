@@ -1,5 +1,4 @@
 
-
 # Join two or tuple using (+)
 
 tuple1 = ("apple", "banana","pinapple")
