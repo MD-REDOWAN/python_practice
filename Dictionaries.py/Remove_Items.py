@@ -30,3 +30,34 @@ print(person2)
 # Output: {'name': 'Redowan', 'age': '23'}
 
 
+
+
+# The del keyword removes the specific key name
+
+person3 = {
+    "name" : "Redowan",
+    "age" : "23",
+    "country" : "bangladesh"
+}
+del person3["age"]
+print(person3)
+
+# Output: {'name': 'Redowan', 'country': 'bangladesh'}
+
+
+
+
+# The clear() method work for empty the dictionary
+
+person4 = {
+    "name" : "Redowan",
+    "age" : "23",
+    "country" : "bangladesh"
+}
+person4.clear()
+print(person4)
+
+# Output: {}
+
+
+
