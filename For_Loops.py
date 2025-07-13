@@ -1,7 +1,6 @@
 
 
 
-
 # python useing for loop
 
 for x in "Redowan" :
