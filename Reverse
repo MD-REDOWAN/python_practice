@@ -1,0 +1,30 @@
+# Calculate the lenth
+
+name = 'Ai'
+
+print(len(name))
+
+
+# For capital word and Small word
+print(name.upper())
+print(name.lower())
+
+print('Ai' in name)
+
+
+# Reverse for list
+num = [1, 3, 5, 7, 9]
+reverse = num.reverse()
+print('Reverse iteams: ', num)
+
+
+# Reverse for String
+nam = input("Enter a sentance : ")
+y = nam[::-1]
+print(y)
+
+# Another Example
+x = input("Enter the second sentance: ")
+z = "".join(reversed(x))
+
+print(z)
